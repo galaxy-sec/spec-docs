@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.3 
+*  修复 update   -f 3 指令
+*  增加 localize  --default_value , 使用MOD默认值本地化
+*  地址(GitAddr, HttpAddr, LocalAddr) 支持环境变量
+
 ## 0.7.2
 
 * localize 指定数值文件

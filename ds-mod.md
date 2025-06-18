@@ -16,32 +16,40 @@ Options:
 ```
 
 ```
-├── arm-mac14-host
-│   ├── _gal
-│   │   └── work.gxl
-│   ├── setting.yml
-│   ├── spec
-│   │   ├── artifact.yml
-│   │   ├── conf.yml
-│   │   ├── logs.yml
-│   │   ├── res.yml
-│   │   └── vars.yml
-│   └── workflows
-│       ├── setup.gxl
-│       └── update.gxl
-└── x86-ubt22-k8s
-    ├── _gal
-    │   └── work.gxl
-    ├── setting.yml
-    ├── spec
-    │   ├── artifact.yml
-    │   ├── conf.yml
-    │   ├── logs.yml
-    │   ├── res.yml
-    │   └── vars.yml
-    └── workflows
-        ├── setup.gxl
-        └── update.gxl
+├── _gal
+│   ├── adm.gxl
+│   └── work.gxl
+├── mod
+│   ├── arm-mac14-host
+│   │   ├── _gal
+│   │   │   └── work.gxl
+│   │   ├── spec
+│   │   │   ├── artifact.yml
+│   │   │   ├── depends.yml
+│   │   │   ├── logs.yml
+│   │   │   └── res.yml
+│   │   ├── values
+│   │   │   └── value.yml
+│   │   ├── vars.yml
+│   │   └── workflows
+│   │       ├── setup.gxl
+│   │       └── update.gxl
+│   └── x86-ubt22-k8s
+│       ├── _gal
+│       │   └── work.gxl
+│       ├── spec
+│       │   ├── artifact.yml
+│       │   ├── depends.yml
+│       │   ├── logs.yml
+│       │   └── res.yml
+│       ├── values
+│       │   └── value.yml
+│       ├── vars.yml
+│       └── workflows
+│           ├── setup.gxl
+│           └── update.gxl
+├── mod_prj.yml
+└── version.txt
 ```
 
 ## setting.yml
