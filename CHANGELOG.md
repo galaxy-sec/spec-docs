@@ -1,4 +1,8 @@
 # Changelog
+## 0.7.4 
+*  调用 values 生成的文件
+*  localize  --default_value 改为 --no_cust_value
+*  地址支持环境变量BUG
 
 ## 0.7.3 
 *  修复 update   -f 3 指令
