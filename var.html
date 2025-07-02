@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>ds-sys - orion-spec</title>
+        <title>变量定义 - orion-spec</title>
 
 
         <!-- Custom HTML head -->
@@ -166,51 +166,25 @@
 
                 <div id="content" class="content">
                     <main>
-                        <pre><code>Usage: ds-sys &lt;COMMAND&gt;
-
-Commands:
-  new       
-  update    
-  localize  
-  help      Print this message or the help of the given subcommand(s)
-
-Options:
-  -h, --help     Print help
-  -V, --version  Print version
-
-</code></pre>
-<h2 id="mod-list"><a class="header" href="#mod-list">mod-list</a></h2>
-<pre><code class="language-yaml">- name: fluent-bit
-  addr:
-    repo: git@github...
-    branch:  master
-  node: arm-mac14-host
-  enable: true
-
-- name: gflow
-  addr:
-    repo: git@github...
-    tag: 0.5.0
-  node: arm-mac14-host
-  enable: true
-
-- name: ds-mod
-  addr:
-    repo: git@github...
-    branch : main
-  node: arm-mac14-host
-  enable: true
+                        <h1 id="变量定义"><a class="header" href="#变量定义">变量定义</a></h1>
+<h2 id="位置--在模块型号varyml"><a class="header" href="#位置--在模块型号varyml">位置  在模块/型号/var.yml</a></h2>
+<h2 id="示位"><a class="header" href="#示位">示位</a></h2>
+<pre><code class="language-yml">vars:
+  - name:  WORK_ROOT
+    value: "${HOME}"
+  - name:  WORK_BIN
+    value: "${WORK_ROOT}/bin"
 </code></pre>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="ds-mod.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="ds-sys.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="var.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="CHANGELOG.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -220,11 +194,11 @@ Options:
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="ds-mod.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="ds-sys.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="var.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="CHANGELOG.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
