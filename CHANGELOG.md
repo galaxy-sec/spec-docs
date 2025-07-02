@@ -1,4 +1,7 @@
 # Changelog
+## 0.8.0 
+*  在sys-spec中调整 _used.json  生成的位置，便于在module中使用
+*  value.yml, var.yml 支持对前序变理的引用。
 ## 0.7.4 
 *  调整 values 生成的文件
 *  localize  --default_value 改为 --no_cust_value
