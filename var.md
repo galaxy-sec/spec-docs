@@ -1,7 +1,7 @@
 # 变量定义
 ## 位置  在模块/型号/var.yml
 
-## 示位
+## 示例
 ```yml
 vars:
   - name:  WORK_ROOT
